@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/small_relative_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_profile_central_container_height"
+        android:layout_marginTop="8dp">
+
+
+        <ImageView
+            android:id="@+id/img_more_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/icon_more_option"
+            android:backgroundTint="@color/all_icon_background_tint"
+            android:src="@drawable/all_icon_and_views_press" />
+
+        <ImageView
+            android:id="@+id/img_job_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toEndOf="@id/img_more_option"
+            android:scaleType="centerCrop" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">صنايعي</string>
+
+    <string name="email">البريد</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="password">كلمه المرور</string>
+    <string name="log_in">دخول</string>
+    <string name="forget_password">هل نسيت كلمه المرور ؟</string>
+    <string name="current_account">حساب حالي</string>
+    <string name="new_account">حساب جديد</string>
+    <string name="first_name">الاسم</string>
+    <string name="account_type">نوع الحساب</string>
+    <string name="profession_type">نوع المهنه</string>
+    <string name="sign_up">تسجيل</string>
+    <string name="save">حفظ</string>
+    <string name="dismiss">اغلاق</string>
+    <string name="clear">حذف</string>
+    <string name="instructor">صنايعي</string>
+    <string name="enter_code">ادخل رمز التحقق</string>
+    <string name="verify_code_has_been_sent_to">تم ارسال رمز التحقق على الرقم</string>
+    <string name="verify">تحقق</string>
+    <string name="country">المحافظه</string>
+    <string name="shop_type">نوع المحلات</string>
+    <string name="send">ارسال</string>
+    <string name="language">اللغه</string>
+    <string name="edit_profile">تعديل بياناتى</string>
+    <string name="sign_out">تسجيل خروج</string>
+    <string name="fast_search">بحث سريع</string>
+    <string name="account_type_or_name">اسم او نوع الحساب</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="add_another_phone_number">اضافه رقم هاتف اخر</string>
+    <string name="please_enter_the_new_name">ادخل الاسم الجديد من فضلك :</string>
+    <string name="new_name">الاسم الجديد</string>
+    <string name="please_enter_the_new_phone_number">ادخل الرقم الجديد من فضلك :</string>
+    <string name="new_phone">الرقم الجديد</string>
+    <string name="please_enter_your_another_phone_number">ادخل الرقم الاخر من فضلك :</string>
+    <string name="add_picture_to_for_your_job">اضف صور لشغلك</string>
+    <string name="delete">حذف</string>
+    <string name="Electrician">كهربائي</string>
+    <string name="mechanical">ميكانيكي</string>
+    <string name="Plumber">سباك</string>
+    <string name="shop">معارض/محلات</string>
+    <string name="car_wash">غسيل سيارات</string>
+    <string name="electrical_tools">ادوات كهربائيه</string>
+    <string name="plumbing_tools">ادوات سباكه</string>
+    <string name="searching_for">بتدور على...؟</string>
+    <string name="select_country">حدد المحافظه</string>
+    <string name="sort">ترتيب</string>
+    <string name="permission_request">طلب اذن وصول</string>
+    <string name="ok">حسنا</string>
+    <string name="please_accept_permission">اقبل بقا ياعم متقرفناش..</string>
+    <string name="sign_up_successfully">تم التسجيل بنجاح!</string>
+    <string name="permission_accepted">تم الحصول على الاذن</string>
+    <string name="permission_denied">تم رفض الحصول على الاذن</string>
+    <string name="enable_gps_provider">من فضلك قم بتشغيل gps</string>
+    <string name="update_location">جار الحصول على موقعك</string>
+    <string name="please_wait_until_taking_your_location">من فضلك انتظر حتى يتم الحصول على موقعك</string>
+    <string name="calling">اتصال</string>
+    <string name="no_another_phone_number_yet">لم يقم باضافه رقم اخر</string>
+    <string name="unBookmark">الغاء العلامه</string>
+    <string name="are_you_sure">هل انت متأكد ؟</string>
+    <string name="no_bookmark_user_yet">لا يوجد علامات بعد..</string>
+    <string name="no_users_yet">لا يوجد مستخدمين بعد</string>
+    <string name="km">كم</string>
+    <string name="AppLanguage">English</string>
+    <string name="update_my_location">تحديث موقعي</string>
+    <string name="rate_user">تقييم</string>
+    <string name="rated">تم التقييم</string>
+    <string name="We_hope_that_our_app_has_helped_you">نحن نأمل أن يكون تطبيقنا قد ساعدك</string>
+    <string name="share_first_pictures">مرحبا هيا قم بمشاركه صور لأعمالك</string>
+    <string name="no_image_yet">نأسف ولكن هذا المستخدم لم يقم باضافه صور بعد</string>
+    <string name="reload">اعاده تحميل</string>
+    <string name="no_internet_connection">لا يوجد اتصال انترنت</string>
+    <string name="internet_connections">اتصال الشبكة</string>
+    <string name="please_check_your_internet_connection">برجاء التحقق من اتصال الانترنت لديك!</string>
+    <string name="exit">خروج</string>
+    <string name="network_enabled">تم تشغيل الانترنت</string>
+    <string name="click_twice_to_exit">اضغط مره اخرى للخروج</string>
+
+
+
+    <string-array name="account_type_list">
+        <item>عميل</item>
+        <item>صنايعي</item>
+        <item>محلات ومعارض</item>
+    </string-array>
+
+
+    <!--  list of jobs !-->
+    <string-array name="profession_type_list">
+        <item>مقاول</item>
+        <item>نجار مسلح</item>
+        <item>مهندس معماري</item>
+        <item>حداد</item>
+        <item>مبيض محارة</item>
+        <item>سباك</item>
+        <item>كهربائي</item>
+        <item>نجار</item>
+        <item>استورجي</item>
+        <item>نقاش</item>
+        <item>مبلط سراميك</item>
+        <item>صنايعي حجر فرعوني</item>
+        <item>صنايعي رخام</item>
+        <item>ونش رفع</item>
+        <item>جرار لودر</item>
+        <item>جرار مقطورة</item>
+        <item>كهربائي سيارات</item>
+        <item>ميكانيكي</item>
+        <item>عفشجي</item>
+        <item>تغيير كاوتش</item>
+        <item>تغيير زيت</item>
+        <item>ونش</item>
+    </string-array>
+
+
+    <!--  list of shops !-->
+    <string-array name="shop_type_list">
+        <item>كهرباء</item>
+        <item>حدائد و بويات</item>
+        <item>أسمنت و رمل</item>
+        <item>حديد</item>
+        <item>شركة مقاولات</item>
+        <item>صيانة أجهزة كهربائية</item>
+        <item>صيانة شاشات</item>
+        <item>بيع وصيانة كمبيوتر</item>
+        <item>زيوت سيارات</item>
+        <item>كاوتشات سيارات</item>
+        <item>كامليات سيارات</item>
+        <item>ادوات سباكه</item>
+        <item>ادوات كهربائيه</item>
+        <item>غسيل سيارات</item>
+    </string-array>
+
+    <!--  list of country !-->
+    <string-array name="country_list">
+        <item>القاهرة</item>
+        <item>الجيزة</item>
+        <item>المنيا</item>
+        <item>السويس</item>
+        <item>الأقصر</item>
+        <item>الأسكندرية</item>
+        <item>بورسعيد</item>
+        <item>دمياط</item>
+        <item>أسوان</item>
+        <item>القليوبية</item>
+        <item>بني سويف</item>
+        <item>الأسماعيلية</item>
+        <item>سوهاج</item>
+        <item>أسيوط</item>
+        <item>البحر الأحمر</item>
+        <item>البحيرة</item>
+        <item>الدقهلية</item>
+        <item>الغربية</item>
+        <item>الفيوم</item>
+        <item>قنا</item>
+        <item>كفر الشيخ</item>
+        <item>مطروح</item>
+        <item>المنوفية</item>
+        <item>الوادي الجديد</item>
+        <item>شمال سيناء</item>
+        <item>جنوب سيناء</item>
+        <item>الشرقية</item>
+    </string-array>
+
+
+    <string-array name="sort_type_list">
+        <item>موقعي</item>
+        <item>الأعلى تقييم</item>
+    </string-array>
+
+</resources>

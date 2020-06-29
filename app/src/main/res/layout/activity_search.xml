@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_container_background_color"
+    tools:context=".MainActivities.LogInActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        style="@style/central_container_all_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/drawable_container_central_background">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="5">
+
+            <TextView
+                android:id="@+id/txt_select_country"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="3"
+                android:background="@drawable/drawable_button_background"
+                android:drawableStart="@drawable/icon_drop_down_arrow_black"
+                android:fontFamily="@font/tajawal_regular"
+                android:gravity="center"
+                android:hint="@string/select_country"
+                android:paddingStart="15dp"
+                android:textColor="@color/black_text_color"
+                android:textColorHint="@color/hint_text_color"
+                android:textSize="@dimen/textSize" />
+
+            <TextView
+                android:id="@+id/txt_sort"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/drawable_button_background"
+                android:fontFamily="@font/tajawal_regular"
+                android:gravity="center"
+                android:hint="@string/sort"
+                android:textColor="@color/black_text_color"
+                android:textColorHint="@color/hint_text_color"
+                android:textSize="@dimen/textSize" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/text_no_users"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/tajawal_regular"
+                android:text="@string/no_users_yet"
+                android:textColor="@color/black_text_color"
+                android:textSize="@dimen/textSize"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/oops_image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_below="@id/text_no_users"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/oops_image"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/m_swipe_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/linear"
+            android:layout_marginTop="3dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/m_recycle_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+    </RelativeLayout>
+
+
+    <ProgressBar
+        android:id="@+id/m_progress_bar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@color/white_text_color"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

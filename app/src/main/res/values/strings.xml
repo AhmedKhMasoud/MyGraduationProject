@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">snai3y</string>
+
+    <string name="email">e-mail</string>
+    <string name="phone">phone</string>
+    <string name="password">password</string>
+    <string name="log_in">log in</string>
+    <string name="forget_password">forget password ?</string>
+    <string name="current_account">current account</string>
+    <string name="new_account">new account</string>
+    <string name="first_name">name</string>
+    <string name="account_type">account type</string>
+    <string name="profession_type">profession type</string>
+    <string name="sign_up">sign up</string>
+    <string name="save">save</string>
+    <string name="dismiss">dismiss</string>
+    <string name="clear">clear</string>
+    <string name="instructor">instructor</string>
+    <string name="enter_code">enter code</string>
+    <string name="verify_code_has_been_sent_to">verify code has been sent to</string>
+    <string name="verify">verify</string>
+    <string name="country">country</string>
+    <string name="shop_type">shop type</string>
+    <string name="send">send</string>
+    <string name="language">language</string>
+    <string name="edit_profile">edit profile</string>
+    <string name="sign_out">sign out</string>
+    <string name="fast_search">fast search</string>
+    <string name="account_type_or_name">account type or name</string>
+    <string name="phone_number">phone number</string>
+    <string name="add_another_phone_number">add another phone number</string>
+    <string name="please_enter_the_new_name">please enter the new name :</string>
+    <string name="new_name">new name</string>
+    <string name="please_enter_the_new_phone_number">please enter the new phone number :</string>
+    <string name="new_phone">new phone</string>
+    <string name="please_enter_your_another_phone_number">please enter your another phone number:</string>
+    <string name="add_picture_to_for_your_job">add picture to for your job</string>
+    <string name="delete">delete</string>
+    <string name="Electrician">Electrician</string>
+    <string name="mechanical">Mechanical</string>
+    <string name="Plumber">Plumber</string>
+    <string name="shop">shop</string>
+    <string name="car_wash">car wash</string>
+    <string name="electrical_tools">electrical tools</string>
+    <string name="plumbing_tools">plumbing tools</string>
+    <string name="searching_for">searching for...?</string>
+    <string name="select_country">select country</string>
+    <string name="sort">sort</string>
+    <string name="permission_request">Permission Request</string>
+    <string name="ok">ok</string>
+    <string name="please_accept_permission">please accept damn you..</string>
+    <string name="sign_up_successfully">sign up successfully</string>
+    <string name="permission_accepted">permission accepted</string>
+    <string name="permission_denied">permission denied</string>
+    <string name="enable_gps_provider">please enable your Gps first..!</string>
+    <string name="update_location">Update Location</string>
+    <string name="please_wait_until_taking_your_location">please wait until taking your location</string>
+    <string name="calling">calling</string>
+    <string name="no_another_phone_number_yet">no another phone number yet</string>
+    <string name="unBookmark">un bookmark</string>
+    <string name="are_you_sure">are you sure ?</string>
+    <string name="no_bookmark_user_yet">no bookmark user yet</string>
+    <string name="no_users_yet">no users yet</string>
+    <string name="km">K.M</string>
+    <string name="AppLanguage">اللغة العربية</string>
+    <string name="update_my_location">update my location</string>
+    <string name="rate_user">rate</string>
+    <string name="rated">rated</string>
+    <string name="We_hope_that_our_app_has_helped_you">We hope that our app has helped you</string>
+    <string name="share_first_pictures">Hello come on, share pictures of your work</string>
+    <string name="no_image_yet">user has not upload image yet</string>
+    <string name="reload">reload</string>
+    <string name="no_internet_connection">no internet connection</string>
+    <string name="internet_connections">Internet Connections</string>
+    <string name="please_check_your_internet_connection">please check your internet connection</string>
+    <string name="exit">exit</string>
+    <string name="network_enabled">network enabled</string>
+    <string name="click_twice_to_exit">click twice to exit</string>
+
+    <string-array name="account_type_list">
+        <item>client</item>
+        <item>instructor</item>
+        <item>shop</item>
+    </string-array>
+
+
+    <!--  list of jobs !-->
+    <string-array name="profession_type_list">
+        <item>Contractor</item>
+        <item>Armed Carpenter</item>
+        <item>Architect</item>
+        <item>Smith</item>
+        <item>Bleached conch</item>
+        <item>Plumber</item>
+        <item>Electrician</item>
+        <item>Carpenter</item>
+        <item>Astorge</item>
+        <item>Engraving</item>
+        <item>Ceramic Tiles</item>
+        <item>Pharaonic Stone Tiles</item>
+        <item>Marble Tiles</item>
+        <item>Lift winch</item>
+        <item>Loodar</item>
+        <item>Tractor</item>
+        <item>Car Electrician</item>
+        <item>Mechanical</item>
+        <item>Car Junk</item>
+        <item>Rubber Changed</item>
+        <item>Oil changed</item>
+        <item>winch</item>
+    </string-array>
+
+
+    <!--  list of shops !-->
+    <string-array name="shop_type_list">
+        <item>Electricity</item>
+        <item>Irons and Paints</item>
+        <item>Cement and Sand</item>
+        <item>Armature</item>
+        <item>Contracting Company</item>
+        <item>Electrical Devieces Mainternance</item>
+        <item>Screens Mainternance</item>
+        <item>Computer Sale and Mainternance </item>
+        <item>Cars Oils</item>
+        <item>Cars Rubber</item>
+        <item>Cars accessories</item>
+        <item>plumbing tools</item>
+        <item>electrical tools</item>
+        <item>car wash</item>
+    </string-array>
+
+
+    <!--  list of country !-->
+    <string-array name="country_list">
+        <item>Cairo</item>
+        <item>Giza</item>
+        <item>Minya</item>
+        <item>Suez</item>
+        <item>Luxor</item>
+        <item>Alexandyia</item>
+        <item>Port Said</item>
+        <item>Damietta</item>
+        <item>Aswan</item>
+        <item>Qaliubiya</item>
+        <item>Bani Suef</item>
+        <item>Ismailia</item>
+        <item>Sohag</item>
+        <item>Asyut</item>
+        <item>Red Sea</item>
+        <item>Beheira</item>
+        <item>Dakahlia</item>
+        <item>Gharbia</item>
+        <item>Fayoum</item>
+        <item>Qena</item>
+        <item>Kafr El-sheikh</item>
+        <item>Matruh</item>
+        <item>Menoufia</item>
+        <item>New Valley</item>
+        <item>North Sinai</item>
+        <item>South Sinai</item>
+        <item>Sharqia</item>
+    </string-array>
+
+
+    <string-array name="sort_type_list">
+        <item>location</item>
+        <item>height rate</item>
+    </string-array>
+
+</resources>

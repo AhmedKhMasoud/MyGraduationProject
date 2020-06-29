@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_profile_central_container_height">
+
+                <RelativeLayout
+                    android:id="@+id/relative"
+                    style="@style/small_relative_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="@dimen/edit_profile_first_view_margin_top">
+
+
+                    <TextView
+                        android:id="@+id/txt_user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="@dimen/edit_profile_margin_for_all_view"
+                        android:fontFamily="@font/tajawal_regular"
+                        android:gravity="center"
+                        android:text="@string/account_type_or_name"
+                        android:textColor="@color/black_text_color"
+                        android:textSize="@dimen/textSize" />
+
+                    <ImageView
+                        android:id="@+id/img_edit_name"
+                        android:layout_width="@dimen/edit_profile_icon_width"
+                        android:layout_height="@dimen/edit_profile_icon_height"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="@dimen/edit_profile_margin_for_all_view"
+                        android:layout_marginBottom="@dimen/edit_profile_margin_for_all_view"
+                        android:background="@drawable/icon_edit"
+                        android:backgroundTint="@color/all_icon_background_tint"
+                        android:src="@drawable/all_icon_and_views_press" />
+
+
+                </RelativeLayout>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="@dimen/circle_image_width"
+                    android:layout_height="@dimen/circle_image_height"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/edit_profile_margin_for_all_view"
+                    android:src="@drawable/default_profile_image" />
+
+                <ImageView
+                    android:id="@+id/img_change_photo"
+                    android:layout_width="@dimen/edit_profile_icon_width"
+                    android:layout_height="@dimen/edit_profile_icon_height"
+                    android:layout_marginStart="@dimen/icon_camera_margin_start"
+                    android:layout_marginTop="@dimen/icon_camera_margin_top"
+                    android:src="@drawable/all_icon_and_views_press"
+                    android:background="@drawable/icon_camera"
+                    android:backgroundTint="@color/all_icon_background_tint" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                style="@style/small_relative_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="@dimen/edit_profile_margin_for_all_view"
+                android:paddingBottom="10dp">
+
+                <ProgressBar
+                    android:id="@+id/m_progress_bar"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true"
+                    android:background="@color/white_text_color"
+                    android:visibility="gone"/>
+
+
+                <TextView
+                    android:id="@+id/txt_phone_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="@dimen/edit_profile_margin_for_all_view"
+                    android:layout_marginTop="@dimen/edit_profile_first_view_margin_top"
+                    android:drawableStart="@drawable/icon_phone"
+                    android:drawablePadding="20dp"
+                    android:drawableTint="@color/all_icon_background_tint"
+                    android:fontFamily="@font/tajawal_regular"
+                    android:gravity="start|center"
+                    android:text="@string/phone_number"
+                    android:textColor="@color/black_text_color"
+                    android:textSize="@dimen/textSize" />
+
+
+                <ImageView
+                    android:id="@+id/img_another_phone_number"
+                    android:layout_width="@dimen/edit_profile_icon_width"
+                    android:layout_height="@dimen/edit_profile_icon_height"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/edit_profile_first_view_margin_top"
+                    android:layout_marginEnd="@dimen/edit_profile_margin_for_all_view"
+                    android:background="@drawable/icon_edit"
+                    android:backgroundTint="@color/all_icon_background_tint"
+                    android:src="@drawable/all_icon_and_views_press" />
+
+                <ImageView
+                    android:id="@+id/black_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/txt_phone_number"
+                    android:layout_marginStart="@dimen/edit_profile_margin_for_all_view"
+                    android:layout_marginTop="@dimen/edit_profile_margin_for_all_view"
+                    android:layout_marginEnd="@dimen/edit_profile_margin_for_all_view"
+                    android:background="@color/black_text_color" />
+
+
+                <TextView
+                    android:id="@+id/txt_another_phone_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/black_line"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="@dimen/edit_profile_margin_for_all_view"
+                    android:layout_marginTop="@dimen/edit_profile_margin_for_all_view"
+                    android:drawableStart="@drawable/icon_add"
+                    android:drawablePadding="20dp"
+                    android:drawableTint="@color/all_icon_background_tint"
+                    android:fontFamily="@font/tajawal_regular"
+                    android:gravity="start|center"
+                    android:text="@string/add_another_phone_number"
+                    android:textColor="@color/black_text_color"
+                    android:textSize="@dimen/textSize" />
+
+
+                <ImageView
+                    android:id="@+id/img_edit_add_phone"
+                    android:layout_width="@dimen/edit_profile_icon_width"
+                    android:layout_height="@dimen/edit_profile_icon_height"
+                    android:layout_below="@id/black_line"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/edit_profile_margin_for_all_view"
+                    android:layout_marginEnd="@dimen/edit_profile_margin_for_all_view"
+                    android:background="@drawable/icon_edit"
+                    android:backgroundTint="@color/all_icon_background_tint"
+                    android:src="@drawable/all_icon_and_views_press" />
+
+
+                <ImageView
+                    android:id="@+id/black_line2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/img_edit_add_phone"
+                    android:layout_marginStart="@dimen/edit_profile_margin_for_all_view"
+                    android:layout_marginTop="@dimen/edit_profile_margin_for_all_view"
+                    android:layout_marginEnd="@dimen/edit_profile_margin_for_all_view"
+                    android:background="@color/black_text_color" />
+
+
+                <TextView
+                    android:id="@+id/txt_update_my_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/black_line2"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="@dimen/edit_profile_margin_for_all_view"
+                    android:layout_marginTop="@dimen/edit_profile_margin_for_all_view"
+                    android:drawableStart="@drawable/icon_my_location"
+                    android:drawablePadding="20dp"
+                    android:drawableTint="@color/all_icon_background_tint"
+                    android:fontFamily="@font/tajawal_regular"
+                    android:gravity="start|center"
+                    android:text="@string/update_my_location"
+                    android:textColor="@color/black_text_color"
+                    android:textSize="@dimen/textSize" />
+
+
+                <ImageView
+                    android:id="@+id/img_update_my_location"
+                    android:layout_width="@dimen/edit_profile_icon_width"
+                    android:layout_height="@dimen/edit_profile_icon_height"
+                    android:layout_below="@id/black_line2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/edit_profile_margin_for_all_view"
+                    android:layout_marginEnd="@dimen/edit_profile_margin_for_all_view"
+                    android:background="@drawable/all_icon_and_views_press"
+                    android:src="@drawable/icon_update_location" />
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

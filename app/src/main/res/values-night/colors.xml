@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- color for text !-->
+    <color name="white_text_color">#000</color>
+    <color name="black_text_color">#fff</color>
+    <color name="hint_text_color">#C4BABA</color>
+
+    <!-- color when press!-->
+    <color name="display_pressed_color">#A346A3</color>
+
+    <!-- color for main container and relative container  !-->
+    <color name="main_container_background_color">#212121</color>
+    <color name="central_container_background_color">#303030</color>
+    <color name="small_container_background_color">#636161</color>
+
+
+    <!-- color for buttons and edit text !-->
+    <color name="editText_background_color">#27496D</color>
+    <color name="button__unEnabled_background_color">#576581</color>
+    <color name="button__enabled_background_color">#142850</color>
+
+    <!-- color for buttons and edit text !-->
+    <color name="icon_background_color">#fff</color>
+
+    <color name="bottom_nav_checked_color">#fff</color>
+    <color name="bottom_nav_default_color">#3F51B5</color>
+
+
+
+</resources>

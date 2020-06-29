@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="170dp"
+    android:layout_height="160dp"
+    android:layout_marginStart="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        app:cardBackgroundColor="@color/white_text_color"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="200dp"
+            android:layout_height="180dp">
+
+            <TextView
+                android:id="@+id/txt_edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/all_icon_and_views_press"
+                android:fontFamily="@font/tajawal_regular"
+                android:paddingStart="15dp"
+                android:paddingTop="30dp"
+                android:text="@string/edit_profile"
+                android:textColor="@color/black_text_color"
+                android:textSize="@dimen/textSize" />
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/txt_edit_profile"
+                android:layout_marginTop="5dp"
+                android:background="#A79D9D" />
+
+
+            <Switch
+                android:id="@+id/m_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img1"
+                android:fontFamily="@font/tajawal_regular"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:switchPadding="5dp"
+                android:text="dark night"
+                android:textColor="@color/black_text_color"
+                android:textSize="@dimen/textSize" />
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/m_switch"
+                android:layout_marginTop="5dp"
+                android:background="#A79D9D" />
+
+            <TextView
+                android:id="@+id/txt_sign_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img2"
+                android:background="@drawable/all_icon_and_views_press"
+                android:fontFamily="@font/tajawal_regular"
+                android:paddingStart="15dp"
+                android:paddingTop="15dp"
+                android:text="@string/sign_out"
+                android:textColor="@color/black_text_color"
+                android:textSize="@dimen/textSize" />
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/txt_sign_out"
+                android:layout_marginTop="5dp"
+                android:background="#A79D9D" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

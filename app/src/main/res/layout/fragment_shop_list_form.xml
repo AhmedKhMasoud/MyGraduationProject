@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/m_card_view"
+    android:layout_width="@dimen/fragment_profession_list_form_card_size"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    app:cardBackgroundColor="@color/small_container_background_color"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/all_icon_and_views_press">
+
+
+        <ImageView
+            android:id="@+id/profession_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/home_fragment_icon_height"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/shop_list_icon_plumbing_tools" />
+
+        <TextView
+            android:id="@+id/profession_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profession_image"
+            android:layout_alignStart="@id/profession_image"
+            android:layout_alignEnd="@id/profession_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/tajawal_regular"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="@string/app_name"
+            android:textColor="@color/black_text_color"
+            android:textSize="@dimen/textSize" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

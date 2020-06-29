@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splashScreen_text_size">100dp</dimen>
+
+
+    <!-- activity user profile -->
+    <dimen name="activity_user_relative_height">240dp</dimen>
+    <dimen name="activity_user_relative_margin_top">80dp</dimen>
+
+    <!-- size for edit text !-->
+    <dimen name="log_in_activity_edit_text_height">40dp</dimen>
+
+    <!-- size for buttons !-->
+    <dimen name="button_width">150dp</dimen>
+    <dimen name="button_height">35dp</dimen>
+
+    <!-- size for text and forgot password  !-->
+    <dimen name="textSize">18dp</dimen>
+    <dimen name="forgot_password_textSize">20dp</dimen>
+
+    <!-- all margin for central container !-->
+    <dimen name="central_container_margin_top">15dp</dimen>
+    <dimen name="central_container_margin_bottom">8dp</dimen>
+    <dimen name="central_relative_container_margin_left">15dp</dimen>
+    <dimen name="central_container_margin_right">15dp</dimen>
+
+    <!-- all margin for toolbar container !-->
+    <dimen name="toolbar_container_margin_top">15dp</dimen>
+    <dimen name="toolbar_container_margin_bottom">8dp</dimen>
+    <dimen name="toolbar_container_margin_left">15dp</dimen>
+    <dimen name="toolbar_container_margin_right">15dp</dimen>
+
+    <!-- all margin for relative container of two buttons !-->
+    <dimen name="relative_container_two_button_margin_top">0dp</dimen>
+    <dimen name="relative_container_two_button_margin_bottom">20dp</dimen>
+    <dimen name="relative_container_two_button_margin_left">15dp</dimen>
+    <dimen name="relative_container_two_button_margin_right">15dp</dimen>
+
+
+    <!-- ******************************** !-->
+    <!-- now begin with log in activity !-->
+    <!-- margin in log in activity !-->
+    <dimen name="log_in_margin_top">20dp</dimen>
+    <dimen name="log_in_margin_bottom">30dp</dimen>
+    <dimen name="log_in_margin_left">30dp</dimen>
+    <dimen name="log_in_margin_right">30dp</dimen>
+
+    <!-- the two buttons margin start and end !-->
+    <dimen name="margin_start_end">10dp</dimen>
+
+    <!-- forgot password margin top -->
+    <dimen name="forgot_password_margin_top">50dp</dimen>
+
+    <!-- first view in log in activity margin top -->
+    <dimen name="log_in_first_view_margin_top">70dp</dimen>
+
+    <!-- ******************************** !-->
+    <!-- now begin with sign up activity !-->
+
+    <!-- welcome text size in sign up activity -->
+    <dimen name="sign_up_welcome_text_size">50dp</dimen>
+
+    <!-- margin top for sign up activity!-->
+    <dimen name="sign_up_views_margin_top">15dp</dimen>
+    <dimen name="sign_up_first_view_margin_top">40dp</dimen>
+
+
+    <!-- ******************************** !-->
+    <!-- now begin with edit profile fragment !-->
+    <!-- all margin and width and height in edit profile fragment !-->
+    <dimen name="edit_profile_first_view_margin_top">80dp</dimen>
+    <dimen name="edit_profile_margin_for_all_view">25dp</dimen>
+
+    <dimen name="edit_profile_central_container_height">243.18dp</dimen>
+
+    <dimen name="circle_image_width">110dp</dimen>
+    <dimen name="circle_image_height">110dp</dimen>
+
+    <dimen name="small_relative_container_margin_end">10dp</dimen>
+    <dimen name="small_relative_container_margin_start">10dp</dimen>
+
+    <dimen name="icon_camera_margin_top">118dp</dimen>
+    <dimen name="icon_camera_margin_start">146dp</dimen>
+
+    <dimen name="edit_profile_icon_width">25dp</dimen>
+    <dimen name="edit_profile_icon_height">25dp</dimen>
+
+    <!-- ******************************** !-->
+    <!-- now begin with profile fragment !-->
+    <dimen name="profile_icon_width">36dp</dimen>
+    <dimen name="profile_icon_height">36dp</dimen>
+
+    <!-- ******************************** !-->
+    <!-- now begin with home fragment !-->
+    <dimen name="home_fragment_margin_top">25dp</dimen>
+
+    <dimen name="home_fragment_icon_width">60dp</dimen>
+    <dimen name="home_fragment_icon_height">60dp</dimen>
+
+    <!-- ******************************** !-->
+    <!-- size of card in fragment profession list form  !-->
+    <dimen name="fragment_profession_list_form_card_size">90dp</dimen>
+
+
+</resources>

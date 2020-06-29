@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/m_swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/m_recycle_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp" />
+
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+    <ProgressBar
+        android:id="@+id/m_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/tajawal_regular"
+            android:text="@string/no_bookmark_user_yet"
+            android:textColor="@color/black_text_color"
+            android:textSize="@dimen/textSize"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/oops_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/oops_image"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

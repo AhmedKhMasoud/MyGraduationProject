@@ -1,0 +1,115 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- for clear the default toolbar !-->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionOverflowButtonStyle">@style/MyCustomActionBarIcon</item>
+    </style>
+
+
+    <!-- for add custom icon to toolbar !-->
+    <style name="MyCustomActionBarIcon" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+
+        <item name="android:src">@drawable/icon_menu</item>
+
+    </style>
+
+
+    <!-- style for relative container !-->
+    <style name="central_container_all_margin">
+
+        <item name="android:layout_marginTop">@dimen/central_container_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/central_container_margin_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/central_relative_container_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/central_container_margin_right</item>
+
+    </style>
+
+    <!-- style for relative container of the two buttons !-->
+    <style name="relative_container_for_two_buttons">
+
+        <item name="android:layout_marginTop">@dimen/relative_container_two_button_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/relative_container_two_button_margin_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/relative_container_two_button_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/relative_container_two_button_margin_right</item>
+
+    </style>
+
+    <!-- style for small relative container !-->
+    <style name="small_relative_container">
+
+        <item name="android:layout_marginEnd">@dimen/small_relative_container_margin_end</item>
+        <item name="android:layout_marginStart">@dimen/small_relative_container_margin_start</item>
+        <item name="android:background">@drawable/drawable_container_small_background</item>
+
+    </style>
+
+    <!-- style for tool bar !-->
+    <style name="toolbar_container">
+
+        <item name="android:layout_marginTop">@dimen/toolbar_container_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/toolbar_container_margin_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/toolbar_container_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/toolbar_container_margin_right</item>
+
+    </style>
+
+    <!-- style for button new account !-->
+    <style name="button_new_account_style">
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:text">@string/new_account</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:layout_marginStart">@dimen/margin_start_end</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/drawable_button_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- style for button current account !-->
+    <style name="button_current_account_style">
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:text">@string/current_account</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:layout_marginEnd">@dimen/margin_start_end</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/drawable_button_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- style for all edit text !-->
+    <style name="edit_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/log_in_activity_edit_text_height</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/drawable_edit_text_background</item>
+        <item name="android:textColor">@color/white_text_color</item>
+        <item name="android:textColorHint">@color/hint_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:paddingStart">7dp</item>
+        <item name="android:paddingEnd">7dp</item>
+    </style>
+
+
+
+
+</resources>
